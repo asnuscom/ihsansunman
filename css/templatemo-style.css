@@ -31,6 +31,8 @@ hr {
   text-transform: uppercase;
 }
 
+
+
 /* START NAVIGATION */
 .sticky-navigation { opacity: 0; }
 .navbar-default {
@@ -173,9 +175,11 @@ hr {
   text-align: center;
   text-transform: uppercase;
 }
-.portfolio-item-title {
+.portfolio-item-title,
+.portfolio-link{
   font-weight: bold;
   margin-top: 10px;
+  color: #fff;
   text-transform: uppercase;
 }
 .portfolio-thumb {
@@ -183,7 +187,7 @@ hr {
   margin: 0;
   position: relative;
 }
-.portfolio-overlay {
+.portfolio-overlay{
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -330,6 +334,10 @@ hr {
   background-position: center center;
   padding-top: 60px;
   padding-bottom: 100px;
+}
+
+.tm-about p{
+  text-shadow: 2px 2px 5px white;
 }
 /* END ABOUT */
 
