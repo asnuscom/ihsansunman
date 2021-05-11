@@ -173,9 +173,11 @@ hr {
   text-align: center;
   text-transform: uppercase;
 }
-.portfolio-item-title {
+.portfolio-item-title,
+.portfolio-link{
   font-weight: bold;
   margin-top: 10px;
+  color: #fff;
   text-transform: uppercase;
 }
 .portfolio-thumb {
@@ -183,7 +185,7 @@ hr {
   margin: 0;
   position: relative;
 }
-.portfolio-overlay {
+.portfolio-overlay{
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
