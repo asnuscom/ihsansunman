@@ -39,7 +39,6 @@ hr {
   color: #F5F2E7;
   font-weight: bold;
   font-size: 30px;
-  line-height: 45px;
   padding: 10px 0 0 12px;
 }
 .navbar-default .navbar-nav li a {
@@ -496,3 +495,9 @@ input { height: 50px; }
   .navbar-default .navbar-brand {  padding-top: 2px; }
 }
 /* END MEDIA 360 */
+
+@media screen and (max-width:1000px){
+.navbar-brand img {
+    height: 50px;
+   }
+}
